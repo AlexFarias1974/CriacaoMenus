@@ -1,0 +1,167 @@
+/** {
+    border: 1px solid red;
+}
+
+h1 {
+    color: rgb(179, 75, 6);
+}
+
+.green {
+    color: green;
+}
+
+p.green {
+    color: green;
+}
+
+#cabecalho {
+    border: 1px solid blue;
+}
+
+li>a {
+    color: red;
+    text-decoration: none;
+}
+
+body {
+    color: red;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(../Images/seta.png) no-repeat left center;
+}*/
+
+
+/* ************
+Barra de menu vertical
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 40px;
+    background: #f7b600 url(../Images/menu.png) no-repeat left bottom;
+
+}
+
+a:hover {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
+Fim barra de menu vertical
+********************** 
+
+Inicio barra de menu horizontal
+********************** 
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../Images/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.3em;
+    text-decoration: none;
+    color: white;
+    background: url(../Images/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a {
+    background-position: right bottom;
+    color: #085662;
+    background: #44cade;
+}
+
+FIM barra de menu Horizontal
+*****************************
+
+Inicio Barra de navegacao com abas
+********************************** */
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li {
+    float: left;
+    background: url(../Images/aba-direita.png) no-repeat top right;
+}
+
+li a {
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url(../Images/aba-esquerda.png) no-repeat top left;
+    color: white;
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul #atual {
+    background: url(../Images/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a {
+    background: url(../Images/aba-esquerda-atual.png) no-repeat top left;
+}
